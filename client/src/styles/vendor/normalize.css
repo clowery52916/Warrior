@@ -1,9 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
 body {
   background-color: white;
 }
 
 .header {
   margin-top: 50px;
+
 }
 
 /*Site Logo is for the logo IMG tag do not add if you do not wish to use the IMG logo!*/
@@ -24,7 +28,7 @@ body {
 .navbar {
   top: 0;
   bottom: 10;
-  background-color: rgb(199, 0, 0);
+  background-color: white;
   height: 10vh;
   width: 110vw;
   position: fixed;
@@ -49,6 +53,7 @@ body {
   text-align: center;
   flex: 1 0 auto;
   z-index: 2;
+
 }
 
 .navbar ul li a {
@@ -56,12 +61,14 @@ body {
   text-decoration: none;
   text-align: center;
   color: rgb(5, 34, 79);
-  line-height: 50px;
+  line-height: 8px;
   display: flex;
+  top:10px;
   justify-content: space-between;
   align-items: center;
   flex: 1 0 auto;
   z-index: 2;
+    font-family:'Oswald', sans-serif; font-size:12px; letter-spacing:10px; color:black; font-weight:400; text-transform:uppercase; opacity:.9;
 }
 
 a:hover:not(.active):not(#reflink) {
@@ -83,7 +90,7 @@ a:hover:not(.active):not(#reflink) {
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-align: center;
 }
 
@@ -109,16 +116,16 @@ a:hover:not(.active):not(#reflink) {
 .dropdown-content {
   display: none;
   position: absolute;
-  background: linear-gradient(to bottom, rgba(199, 0, 0, 0.63), rgba(199, 0, 0, 0.63),
-  rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.63),
+  background: linear-gradient(to bottom, rgba(199, 0, 0, 0.63),
+  rgba(255, 255, 255, 0.63),
   rgba(5, 34, 79, 0.63));
-  font-size: 18px;
+  font-size: 12px;
   min-width: 160px;
   z-index: 1;
   width: 100%;
   left: 0;
   height: auto;
-  top: 70px;
+  top: .1px;
   align-items: stretch;
 }
 
@@ -127,9 +134,9 @@ a:hover:not(.active):not(#reflink) {
   color: rgb(5, 34, 79);
   padding: 19px 16px;
   text-decoration: none;
-  display: block;
+  /* display: block; */
   text-align: center;
-  text-indent: 40%;
+  text-indent: 35%;
 }
 
 .dropdown-content a:hover {
@@ -141,12 +148,6 @@ a:hover:not(.active):not(#reflink) {
   text-align: center;
 }
 
-.newsblock {
-  width: 500px;
-  /*add 1410x3000 to have the frame cover the entire site if you wish to use 1410x3000 its WIDTHxHEIGHT !!!*/
-  height: 500px;
-  border: 5px solid red;
-}
 
 iframe {
   width: inherit;
@@ -217,8 +218,6 @@ form {}
   font-family: Helvetica Neue;
   font-weight: bold;
 }
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
 /* Override UGG site */
 #main {width: 100%; padding:0;}
@@ -244,8 +243,8 @@ form {}
 
 /* Section - Title */
 /**************************/
-#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
-#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:left;}
+#parallax-world-of-ugg .title h1 {font-size:12px; letter-spacing:8px;}
 
 /* Section - Block */
 /**************************/
@@ -277,6 +276,3 @@ form {}
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
 }
-
-
-/*  */
