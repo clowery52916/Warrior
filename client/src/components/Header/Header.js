@@ -23,13 +23,12 @@ const Header = () => (<div>
             <div class="dropdown">
               <br/>
             <br/>
-
               <div class="dropdown-content">
                 <br/>
               <br/>
               <br/>
             <br/>
-          <br/>
+
                 <a href="/sponsors">
                 Sponsors
                 </a>
