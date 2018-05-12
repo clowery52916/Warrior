@@ -13,11 +13,6 @@ const Header = () => (
 
   <center>
     <header class="header">
-
-      <div class="sitelogo">
-
-        <img src="http://www.lakecountychambers.com/wp-content/uploads/2014/11/vetsnet-645x234.png" />
-      </div>
 <div>
 
 </div>
@@ -73,9 +68,6 @@ const Header = () => (
         </ul>
       </div>
     </header>
-    <div class="newsblock">
-
-    </div>
   </center>
   </div>
 );

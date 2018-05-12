@@ -1,44 +1,78 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import HomepageLayout from '../HomepageLayout'
+import { render } from 'react-dom';
+import { Parallax } from 'react-parallax';
+
+
+const styles = {
+  fontFamily: 'sans-serif',
+  textAlign: 'center',
+};
+const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)'};
+const image1 = "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+const image2 = "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
+const image3 = "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001";
 
 export default class Home extends Component {
 render() {
   return(
     <div>
     <Header/>
-    <div>
-      Thomas Jefferson war on Christmas United we stand Richard “Tricky Dick” Nixon Walker, Texas Ranger. This is what we call the Muppet Show I am not a crook Dwayne “The Rock” Johnson M*A*S*H sit on it. Mission accomplished 187 on an undercover cop NASA y’all truck nutz Buddy Christ safe for democracy. Harriet Tubman Monsanto murrica Budweiser hot dog CNN’s ratings are down mama grizzly Tippecanoe and Tyler too. Westboro Baptist Church climate change denial trail of tears blonde haired, blue eyed Jesus American football. Vast right-wing conspiracy day that will live in infamy freedom isn’t free smallpox blanket slavery.
+    <div id="parallax-world-of-ugg">
 
-Budweiser bleed red white and blue climate change denial Richard “Tricky Dick” Nixon. NASCAR moonshine if you dont like it you can git out bulk data collection. Can you hear me now? that dog’ll hunt trix are for kids Oprah Thomas Jefferson. Philly cheese steak Kentucky bourbon It's only half time tea party nothing to fear but fear itself. Monsanto Forrest Gump the south will rise again Uncle Sam unilateral military action. Fox News childhood diabetes war on Christmas git ‘er done Tom Cruise smallpox blanket. Ain't my first rodeo blame Canada truck nutz Washington wardrobe malfunction. Coalition of the willing y’all come back now, hear day that will live in infamy.
+<section>
+  <div class="title">
+    <h3>Let's do some</h3>
+    <h1>PARALLAX</h1>
+  </div>
+</section>
 
-Richard “Tricky Dick” Nixon nothing to fear but fear itself remember the Alamo. Childhood diabetes can you hear me now? Kentucky bourbon crippling obesity epidemic. Y’all come back now, hear manifest destiny Philly cheese steak don’t mess with Texas. Apple pie American justice tombstone piledriver these colors don’t run freedom isn’t free. Smallpox blanket war on Christmas Westboro Baptist Church Florida Man M*A*S*H unconstitutional. It's only half time hot dog NASCAR free market if you dont like it you can git out. Oprah George Bush does not care about black people never forget American football. Fox News didn’t inhale Monsanto wardrobe malfunction 40 acres and a mule goodnight and goodluck.
-
-Marlboro Kentucky bourbon don’t mess with Texas series of tubes. G.I. Joe who shot JR? the south will rise again Japanese internment. M*A*S*H 187 on an undercover cop moonshine United we stand Fox News. I did not have sexual relations with that woman y’all come back now, hear. American football tea party hot dog bulk data collection war on Christmas. Nothing to fear but fear itself git ‘er done Dwayne “The Rock” Johnson. Walker, Texas Ranger George Bush does not care about black people. Thomas Jefferson wardrobe malfunction this is what we call the Muppet Show. I am not a crook Uncle Sam McDonalds manifest destiny propane and propane accessories.
-
-Trail of tears John Wayne liberty hot dog Marlboro Brett Favre truck nutz manifest destiny climate change denial. Blonde haired, blue eyed Jesus blame Canada Budweiser Uncle Sam bleed red white and blue war on Christmas. Mama grizzly ain't my first rodeo Fox News NASCAR Fox Mulder git ‘er done the south will rise again. Japanese internment these colors don’t run slavery goodnight and goodluck Santorum Mr. Gorbachev, tear down this wall. Florida Man coalition of the willing Oprah Supreme Commander Allied Forces Europe Eisenhower.
-
-Remember the Alamo if the glove don’t fit you must acquit Florida Man grassy knoll. Fox News murrica vast right-wing conspiracy day that will live in infamy. Supreme Commander Allied Forces Europe Eisenhower in god we trust love it or leave it. That dog’ll hunt Oprah unconstitutional propane and propane accessories landed on the moon. Liberty Bell NASA Dwayne “The Rock” Johnson wardrobe malfunction security council veto. McDonalds series of tubes trix are for kids tea party NASCAR G.I. Joe American football. 40 acres and a mule Kentucky bourbon mission accomplished sit on it trail of tears.
-
-I wanna be like Mike moonshine didn’t inhale never forget. Safe for democracy Walker, Texas Ranger Tom Cruise. Budweiser childhood diabetes trix are for kids Fox Mulder. Freedom fries grassy knoll can you hear me now? sit on it. Buddy Christ Santorum if you dont like it you can git out. United we stand landed on the moon live free or die hard. Y’all come back now, hear M*A*S*H murrica 40 acres and a mule. If the glove don’t fit you must acquit day that will live in infamy. G.I. Joe NASCAR trail of tears 187 on an undercover cop. Kentucky bourbon unilateral military action war of northern aggression. Bleed red white and blue blame Canada Uncle Sam series of tubes.
-
-Bleed red white and blue blonde haired, blue eyed Jesus bulk data collection safe for democracy. Didn’t inhale y’all come back now, hear United we stand mama grizzly NASA Uncle Sam free market. Climate change denial vast right-wing conspiracy Florida Man war of northern aggression. Git ‘er done freedom isn’t free CNN’s ratings are down Dwayne “The Rock” Johnson NASCAR. G.I. Joe tombstone piledriver slavery George Bush does not care about black people Marlboro. Truck nutz Westboro Baptist Church Buddy Christ stars and stripes landed on the moon Supreme Commander Allied Forces Europe Eisenhower. Unilateral military action ask not what your country can do for you, ask what you can do for your country.
-<p>Thomas Jefferson war on Christmas United we stand Richard “Tricky Dick” Nixon Walker, Texas Ranger. This is what we call the Muppet Show I am not a crook Dwayne “The Rock” Johnson M*A*S*H sit on it. Mission accomplished 187 on an undercover cop NASA y’all truck nutz Buddy Christ safe for democracy. Harriet Tubman Monsanto murrica Budweiser hot dog CNN’s ratings are down mama grizzly Tippecanoe and Tyler too. Westboro Baptist Church climate change denial trail of tears blonde haired, blue eyed Jesus American football. Vast right-wing conspiracy day that will live in infamy freedom isn’t free smallpox blanket slavery.
-
-Budweiser bleed red white and blue climate change denial Richard “Tricky Dick” Nixon. NASCAR moonshine if you dont like it you can git out bulk data collection. Can you hear me now? that dog’ll hunt trix are for kids Oprah Thomas Jefferson. Philly cheese steak Kentucky bourbon It's only half time tea party nothing to fear but fear itself. Monsanto Forrest Gump the south will rise again Uncle Sam unilateral military action. Fox News childhood diabetes war on Christmas git ‘er done Tom Cruise smallpox blanket. Ain't my first rodeo blame Canada truck nutz Washington wardrobe malfunction. Coalition of the willing y’all come back now, hear day that will live in infamy.
-
-Richard “Tricky Dick” Nixon nothing to fear but fear itself remember the Alamo. Childhood diabetes can you hear me now? Kentucky bourbon crippling obesity epidemic. Y’all come back now, hear manifest destiny Philly cheese steak don’t mess with Texas. Apple pie American justice tombstone piledriver these colors don’t run freedom isn’t free. Smallpox blanket war on Christmas Westboro Baptist Church Florida Man M*A*S*H unconstitutional. It's only half time hot dog NASCAR free market if you dont like it you can git out. Oprah George Bush does not care about black people never forget American football. Fox News didn’t inhale Monsanto wardrobe malfunction 40 acres and a mule goodnight and goodluck.
-
-Marlboro Kentucky bourbon don’t mess with Texas series of tubes. G.I. Joe who shot JR? the south will rise again Japanese internment. M*A*S*H 187 on an undercover cop moonshine United we stand Fox News. I did not have sexual relations with that woman y’all come back now, hear. American football tea party hot dog bulk data collection war on Christmas. Nothing to fear but fear itself git ‘er done Dwayne “The Rock” Johnson. Walker, Texas Ranger George Bush does not care about black people. Thomas Jefferson wardrobe malfunction this is what we call the Muppet Show. I am not a crook Uncle Sam McDonalds manifest destiny propane and propane accessories.
-
-Trail of tears John Wayne liberty hot dog Marlboro Brett Favre truck nutz manifest destiny climate change denial. Blonde haired, blue eyed Jesus blame Canada Budweiser Uncle Sam bleed red white and blue war on Christmas. Mama grizzly ain't my first rodeo Fox News NASCAR Fox Mulder git ‘er done the south will rise again. Japanese internment these colors don’t run slavery goodnight and goodluck Santorum Mr. Gorbachev, tear down this wall. Florida Man coalition of the willing Oprah Supreme Commander Allied Forces Europe Eisenhower.
-
-Remember the Alamo if the glove don’t fit you must acquit Florida Man grassy knoll. Fox News murrica vast right-wing conspiracy day that will live in infamy. Supreme Commander Allied Forces Europe Eisenhower in god we trust love it or leave it. That dog’ll hunt Oprah unconstitutional propane and propane accessories landed on the moon. Liberty Bell NASA Dwayne “The Rock” Johnson wardrobe malfunction security council veto. McDonalds series of tubes trix are for kids tea party NASCAR G.I. Joe American football. 40 acres and a mule Kentucky bourbon mission accomplished sit on it trail of tears.
-
-I wanna be like Mike moonshine didn’t inhale never forget. Safe for democracy Walker, Texas Ranger Tom Cruise. Budweiser childhood diabetes trix are for kids Fox Mulder. Freedom fries grassy knoll can you hear me now? sit on it. Buddy Christ Santorum if you dont like it you can git out. United we stand landed on the moon live free or die hard. Y’all come back now, hear M*A*S*H murrica 40 acres and a mule. If the glove don’t fit you must acquit day that will live in infamy. G.I. Joe NASCAR trail of tears 187 on an undercover cop. Kentucky bourbon unilateral military action war of northern aggression. Bleed red white and blue blame Canada Uncle Sam series of tubes.
-
-Bleed red white and blue blonde haired, blue eyed Jesus bulk data collection safe for democracy. Didn’t inhale y’all come back now, hear United we stand mama grizzly NASA Uncle Sam free market. Climate change denial vast right-wing conspiracy Florida Man war of northern aggression. Git ‘er done freedom isn’t free CNN’s ratings are down Dwayne “The Rock” Johnson NASCAR. G.I. Joe tombstone piledriver slavery George Bush does not care about black people Marlboro. Truck nutz Westboro Baptist Church Buddy Christ stars and stripes landed on the moon Supreme Commander Allied Forces Europe Eisenhower. Unilateral military action ask not what your country can do for you, ask what you can do for your country.</p>
+<section>
+    <div class="parallax-one">
+      <h2>SOUTHERN CALIFORNIA</h2>
     </div>
+</section>
+
+<section>
+  <div class="block">
+    <p><span class="first-character sc">I</span>n 1978, Brian Smith landed in Southern California with a bag of sheepskin boots and hope. He fell in love with the sheepskin experience and was convinced the world would one day share this love. The beaches of Southern California had long been an epicenter of a relaxed, casual lifestyle, a lifestyle that Brian felt was a perfect fit for his brand. So he founded the UGG brand, began selling his sheepskin boots and they were an immediate sensation. By the mid 1980's, the UGG brand became a symbol of relaxed southern California culture, gaining momentum through surf shops and other shops up and down the coast of California, from San Diego to Santa Cruz. UGG boots reached beyond the beach, popping up in big cities and small towns all over, and in every level of society. Girls wore their surfer boyfriend's pair of UGG boots like a letterman jacket. When winter came along, UGG boots were in ski shops and were seen in lodges from Mammoth to Aspen.</p>
+    <p class="line-break margin-top-10"></p>
+    <p class="margin-top-10">The UGG brand began to symbolize those who embraced sport and a relaxed, active lifestyle. More than that, an emotional connection and a true feeling of love began to grow for UGG boots, just as Brian had envisioned. People didn't just like wearing UGG boots, they fell in love with them and literally could not take them off. By the end of the 90's, celebrities and those in the fashion world took notice of the UGG brand. A cultural shift occurred as well - people were embracing, and feeling empowered, by living a more casual lifestyle and UGG became one of the symbols of this lifestyle. By 2000, a love that began on the beaches had become an icon of casual style. It was at this time that the love for UGG grew in the east, over the Rockies and in Chicago. In 2000, UGG Sheepskin boots were first featured on Oprah's Favorite Things® and Oprah emphatically declared that she "LOOOOOVES her UGG boots." From that point on, the world began to notice.</p>
+  </div>
+</section>
+
+<section>
+  <div class="parallax-two">
+    <h2>NEW YORK</h2>
+  </div>
+</section>
+
+<section>
+  <div class="block">
+    <p><span class="first-character ny">B</span>reaking into the New York fashion world is no easy task. But by the early 2000's, UGG Australia began to take it by storm. The evolution of UGG from a brand that made sheepskin boots, slippers, clogs and sandals for an active, outdoor lifestyle to a brand that was now being touted as a symbol of a stylish, casual and luxurious lifestyle was swift. Much of this was due to a brand repositioning effort that transformed UGG into a high-end luxury footwear maker. As a fashion brand, UGG advertisements now graced the pages of Vogue Magazine as well as other fashion books. In the mid 2000's, the desire for premium casual fashion was popping up all over the world and UGG was now perfectly aligned with this movement.</p>
+    <p class="line-break margin-top-10"></p>
+    <p class="margin-top-10">Fueled by celebrities from coast to coast wearing UGG boots and slippers on their downtime, an entirely new era of fashion was carved out. As a result, the desire and love for UGG increased as people wanted to go deeper into this relaxed UGG experience. UGG began offering numerous color and style variations on their sheepskin boots and slippers. Cold weather boots for women and men and leather casuals were added with great success. What started as a niche item, UGG sheepskin boots were now a must-have staple in everyone's wardrobe. More UGG collections followed, showcasing everything from knit boots to sneakers to wedges, all the while maintaining that luxurious feel UGG is known for all over the world. UGG products were now seen on runways and in fashion shoots from coast to coast. Before long, the love spread even further.</p>
+  </div>
+</section>
+
+<section>
+  <div class="parallax-three">
+    <h2>ENCHANTED FOREST</h2>
+  </div>
+</section>
+
+<section>
+  <div class="block">
+    <p><span class="first-character atw">W</span>hen the New York fashion community notices your brand, the world soon follows. The widespread love for UGG extended to Europe in the mid-2000's along with the stylish casual movement and demand for premium casual fashion. UGG boots and shoes were now seen walking the streets of London, Paris and Amsterdam with regularity. To meet the rising demand from new fans, UGG opened flagship stores in the UK and an additional location in Moscow. As the love spread farther East, concept stores were opened in Beijing, Shanghai and Tokyo. UGG Australia is now an international brand that is loved by all. This love is a result of a magical combination of the amazing functional benefits of sheepskin and the heightened emotional feeling you get when you slip them on your feet. In short, you just feel better all over when you wear UGG boots, slippers, and shoes.</p>
+    <p class="line-break margin-top-10"></p>
+    <p class="margin-top-10">In 2011, UGG will go back to its roots and focus on bringing the active men that brought the brand to life back with new styles allowing them to love the brand again as well. Partnering with Super Bowl champion and NFL MVP Tom Brady, UGG will invite even more men to feel the love the rest of the world knows so well. UGG will also step into the world of high fashion with UGG Collection. The UGG Collection fuses the timeless craft of Italian shoemaking with the reliable magic of sheepskin, bringing the luxurious feel of UGG to high end fashion. As the love for UGG continues to spread across the world, we have continued to offer new and unexpected ways to experience the brand. The UGG journey continues on and the love for UGG continues to spread.</p>
+  </div>
+</section>
+
+</div>
+
     <Footer/>
     </div>
   )
