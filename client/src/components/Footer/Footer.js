@@ -4,9 +4,10 @@ import styled from 'styled-components'
 const FooterContainer = styled.div`
   background-color: white;
   position: static;
-  color:red;
+  color:black;
   height:10vh;;
   width:100vw
+  font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;
 `
 
 const Footer = () => (

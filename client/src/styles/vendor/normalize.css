@@ -1,12 +1,53 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
+
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      background: #000;
+  }
+  .swiper-slide {
+      font-size: 18px;
+      color:#fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 40px 60px;
+  }
+  .parallax-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 180%;
+      height: 100%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+  }
+.parallax-bg-2 {
+    left: 110%;
+}
+  .swiper-slide .title {
+      font-size: 41px;
+      font-weight: 300;
+  }
+  .swiper-slide .subtitle {
+      font-size: 21px;
+  }
+  .swiper-slide .text {
+      font-size: 14px;
+      max-width: 400px;
+      line-height: 1.3;
+  }
 body {
   background-color: white;
 }
 
 .header {
   margin-top: 50px;
+    min-width: 50px;
 
 }
 
@@ -16,6 +57,7 @@ body {
   height: 25vw;
   width: 110vw;
   margin: 0 auto;
+    min-width: 50px;
 }
 
 /*Site Lgo is for the logo IMG tag do not add if you do not wish to use the IMG logo!*/
@@ -23,6 +65,7 @@ body {
 .sitelogo img {
   height: inherit;
   width: inherit;
+    min-width: 50px;
 }
 
 .navbar {
@@ -34,6 +77,7 @@ body {
   position: fixed;
   display: flex;
   align-items: stretch;
+    min-width: 50px;
   /*margin-left: 150px;*/
 }
 
@@ -43,6 +87,7 @@ body {
   align-items: center;
   flex: 1 0 auto;
   text-align: center;
+    min-width: 50px;
 }
 
 .navbar ul li {
@@ -52,6 +97,7 @@ body {
   align-items: center;
   text-align: center;
   flex: 1 0 auto;
+    min-width: 50px;
   z-index: 2;
 
 }
@@ -67,6 +113,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex: 1 0 auto;
+    min-width: 50px;
   z-index: 2;
     font-family:'Oswald', sans-serif; font-size:12px; letter-spacing:10px; color:black; font-weight:400; text-transform:uppercase; opacity:.9;
 }
@@ -79,6 +126,8 @@ a:hover:not(.active):not(#reflink) {
   min-width: 10px;
   align-items: center;
   text-align: center;
+    min-width: 50px;
+
 }
 
 .active {
@@ -86,12 +135,14 @@ a:hover:not(.active):not(#reflink) {
   height: 10vh;
   float: left;
   text-align: center;
+    min-width: 50px;
 }
 
 .dropdown {
   float: left;
   /* overflow: hidden; */
   text-align: center;
+    min-width: 50px;
 }
 
 /* .dropdown .dropbtn {
@@ -111,6 +162,7 @@ a:hover:not(.active):not(#reflink) {
   color: white;
   float: none;
   text-align: center;
+    min-width: 50px;
 }
 
 .dropdown-content {
@@ -120,33 +172,39 @@ a:hover:not(.active):not(#reflink) {
   rgba(255, 255, 255, 0.63),
   rgba(5, 34, 79, 0.63));
   font-size: 12px;
-  min-width: 160px;
+  min-width: 50px;
   z-index: 1;
   width: 100%;
   left: 0;
   height: auto;
   top: .1px;
   align-items: stretch;
+    min-width: 50px;
 }
 
 .dropdown-content a {
   float: none;
   color: rgb(5, 34, 79);
+    min-width: 50px;
   padding: 19px 16px;
   text-decoration: none;
   /* display: block; */
   text-align: center;
   text-indent: 35%;
+    min-width: 50px;
 }
 
 .dropdown-content a:hover {
   text-align: center;
+    min-width: 50px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   text-align: center;
+    min-width: 50px;
 }
+
 
 
 iframe {
@@ -164,16 +222,18 @@ form {}
 }
 
 #searchbtn {
-  margin-top: 11px;
+  margin-top: 10px;
   position: absolute;
   padding: 6px 15px;
   left: -8px;
   background-color: #207cca;
+  font-family:'Oswald', sans-serif; color:white;
   color: #fafafa;
 }
 
 #searchbtn:hover {
   color: white;
+  font-family:'Oswald', sans-serif;  text-transform: uppercase; color:white;
   background-color: #155084;
   border: 2px solid #155084;
 }
@@ -200,9 +260,8 @@ form {}
 
 ::-webkit-input-placeholder {
   /* For WebKit browsers */
-  color: #dd3333;
-  font-family: Helvetica Neue;
-  font-weight: bold;
+  color: black;
+font-family:'Oswald', sans-serif;
 }
 
 :-moz-placeholder {
@@ -238,8 +297,8 @@ form {}
 .first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
 
 .sc {color: #3b8595;}
-.ny {color: #3d3c3a;}
-.atw {color: #c48660;}
+.ny {color: #f60e0e;}
+.atw {color: #0a035b;}
 
 /* Section - Title */
 /**************************/
@@ -254,13 +313,13 @@ form {}
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1502358294-38a1911070dd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=852254f9896cee0dfceaa7bd8db9a937&auto=format&fit=crop&w=1950&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1525362235907-ce816e4c7819?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab8355221593b396fdd94feca618edd9&auto=format&fit=crop&w=2850&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1494972688394-4cc796f9e4c5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5966fbd4a3212dc13c7ad81c4d665354&auto=format&fit=crop&w=2850&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
 /* Extras */
 /**************************/
-#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+#parallax-world-of-ugg .line-break {border-bottom:1px solid #0a035b; width: 150px; margin:0 auto;}
 
 /* Media Queries */
 /**************************/
@@ -271,8 +330,79 @@ form {}
   #parallax-world-of-ugg .block {padding: 30px; width:420px;}
   #parallax-world-of-ugg h2 {font-size:30px;}
   #parallax-world-of-ugg .block {padding: 30px;}
-  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three #parallax-world-of-ugg .parallax-four #parallax-world-of-ugg .parallax-five #parallax-world-of-ugg .parallax-six  {padding-top:100px; padding-bottom:100px;}
 }
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+.main-container {
+  padding: 25px;
+  background: #f1f1f1;
+}
+.container {
+
+  width: 100vw;
+}
+
+.parallax-four {
+  background-image: url(https://images.unsplash.com/photo-1501789605990-988ca86e9ff3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5bfc7a6eab0fa3e6dde83e27c33dec3?pubId=5104226627001&videoId=5280261645001&auto=format&fit=crop&w=2850&q=80);
+
+      /* Set a specific height */
+      height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+.parallax-five {
+  background-image: url(https://images.unsplash.com/photo-1501789605990-988ca86e9ff3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5bfc7a6eab0fa3e6dde83e27c33dec3?pubId=5104226627001&videoId=5280261645001&auto=format&fit=crop&w=2850&q=80);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-six {
+  background-image: url(https://images.unsplash.com/photo-1501789605990-988ca86e9ff3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5bfc7a6eab0fa3e6dde83e27c33dec3?pubId=5104226627001&videoId=5280261645001&auto=format&fit=crop&w=2850&q=80);
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(199, 0, 0, 0.63),
+  rgba(255, 255, 255, 0.63),
+  rgba(5, 34, 79, 0.63));
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: auto;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }

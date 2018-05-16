@@ -12,7 +12,7 @@ const Header = () => (<div>
 
   <center>
     <header class="header">
-      <div></div>
+      <nav>
 
       <div id="nav_bar" class="navbar">
         <img class="active" src='http://warrioroutreach.org/wp-content/uploads/2016/09/cropped-warrior-logo-PNG.png'></img>
@@ -124,6 +124,7 @@ const Header = () => (<div>
           </li>
         </ul>
       </div>
+      </nav>
     </header>
   </center>
 </div>);
