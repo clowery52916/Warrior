@@ -86,29 +86,23 @@ render() {
     <br/>
     <section>
   <Carousel>
-    <div class='container'>
-    <div class="parallax-four">
-      {/* <img src={image1} alt="Avatar" class="parallax"/> */}
+    <div class="container">
+      <img src={image1} alt="Avatar" class="image"/>
       <div class="overlay">
         <div class="text">Hello World</div>
       </div>
     </div>
-    </div>
-    <div class='container'>
-    <div class="parallax-five">
-      {/* <img src={image1} alt="Avatar" class="parallax"/> */}
+    <div class="container">
+      <img src={image2} alt="Avatar" class="image"/>
       <div class="overlay">
-        <div class="text">Hello</div>
+        <div class="text">WHAD UP</div>
       </div>
     </div>
-    </div>
-    <div class='container'>
-    <div class="parallax-six">
-      {/* <img src={image1} alt="Avatar" class="parallax"/> */}
+    <div class="container">
+      <img src={image3} alt="Avatar" class="image"/>
       <div class="overlay">
-        <div class="text">World</div>
+        <div class="text">YO</div>
       </div>
-    </div>
     </div>
     {/* <div class="container">
       <img src={image4} alt="Avatar" class="image"/>
