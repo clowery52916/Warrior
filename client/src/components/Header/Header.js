@@ -23,14 +23,8 @@ const Header = () => (<div>
             <div class="dropdown">
               <br/>
             <br/>
-              <div class="dropdown-content">
-                <br/>
-              <br/>
-              <br/>
-            <br/>
-
-                <a href="/sponsors">
-                Sponsors
+              <div class="dropdown-content" id='top-container'>
+                <a href="/sponsors">Sponsors
                 </a>
                 <a href="/recognition">
                   Volunteer Recognition
@@ -41,7 +35,7 @@ const Header = () => (<div>
                 <a href="/donate">
               Donate Today
                 </a>
-
+                <br/>
               </div>
             </div>
           </li>
@@ -51,21 +45,19 @@ const Header = () => (<div>
               <br/>
             <br/>
               <div class="dropdown-content">
-                <br/>
-              <br/>
-              <br/>
-            <br/>
-                <a href="/mission">About Warrior Outreach</a>
+                <Link to="/mission">About Warrior Outreach</Link>
                 <a href="/story">
-                  <strong>Our Story</strong>
+                  Our Story
                 </a>
                 <a href="/ranch">
-                  <strong>Our Ranch</strong>
+                  Our Ranch
                 </a>
                 <a href="/sam">
-                  <strong>Board of Directors
-                  </strong>
+                  Board of Directors
+
                 </a>
+                <br/>
+
               </div>
             </div>
           </li>
@@ -75,23 +67,18 @@ const Header = () => (<div>
               <br/>
             <br/>
               <div class="dropdown-content">
-                <br/>
-              <br/>
-              <br/>
-            <br/>
                 <a href="/suicide-awareness">
-                  <strong>Suicide Awarenss and Prevention</strong>
+                  Suicide Awarenss and Prevention
                 </a>
-                <a href="/ptsd">
-                  <strong>Learn about PTSD</strong>
-                </a>
+                <Link to="/ptsd">
+                  Learn about PTSD
+                </Link>
                 <a href="/resilience">
-                  <strong>Resilience</strong>
+                  Resilience
                 </a>
                 <br/>
               <br/>
-              <br/>
-            <br/>
+                <br/>
               </div>
             </div>
           </li>
@@ -101,19 +88,16 @@ const Header = () => (<div>
               <br/>
             <br/>
               <div class="dropdown-content">
-                <br/>
-              <br/>
-              <br/>
-            <br/>
+
+
                 <a href="#">
-                  <strong>Link 1</strong>
+                  Link 1
                 </a>
                 <a href="#">
-                  <strong>Link 2</strong>
+                  Link 2
                 </a>
-                <br/>
                 <a href="#">
-                  <strong>Link 3</strong>
+                  Link 3
                 </a>
                 <br/>
               <br/>
