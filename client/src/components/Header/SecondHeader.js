@@ -11,7 +11,7 @@ class SecondHeader extends Component {
           <div class="title">
             <h3>Connect with Us!</h3>
             <h1>Donate</h1>
-              <h1>Donate</h1>
+              <h1>Volunteer</h1>
           </div>
         </section>
       </div>

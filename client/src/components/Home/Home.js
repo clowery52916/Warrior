@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header'
+import SecondHeader from '../Header/SecondHeader'
 import Footer from '../Footer/Footer'
 import HomepageLayout from '../HomepageLayout'
 import { render } from 'react-dom';
@@ -17,26 +18,24 @@ const styles = {
   textAlign: 'center',
 };
 const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)'};
-const image1 = "https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15304150_1882746025287717_2896792020856309222_o.jpg?_nc_cat=0&oh=08f537b59ad3f524ab5778658e94dda2&oe=5B826BA9&text=Our Ranch";
-const image2 = "https://images.unsplash.com/photo-1519941970202-b1883164af02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c793cdd74995ec35bcd03fe19e2db8c5&auto=format&fit=crop&w=800&q=60";
-const image3 = "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001";
+const image1 = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/32683125_2146991755529808_6223058851969630208_o.jpg?_nc_cat=0&oh=aeb1a6e69ccc67edb0396387427e4c46&oe=5B822986&auto=format&fit=crop&w=800&q=60";
+const image2 = "https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/18623401_1971234419772210_5888313411426508302_o.jpg?_nc_cat=0&oh=8551ec1f6b0eade6eace9a1fcba17b4b&oe=5B8F0850&auto=format&fit=crop&w=800&q=60";
+const image3 = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/10247413_1481550415407282_654150860472308275_n.jpg?_nc_cat=0&oh=8232141cedeb0fdf05d7d1335bbb1c52&oe=5B9809BF&auto=format&fit=crop&w=800&q=60";
 
 export default class Home extends Component {
 
 render() {
   return(
     <div>
-    <Header/>
+      <SecondHeader/>
 
+    <div>
+
+    <Header/>
+</div>
     <div id="parallax-world-of-ugg">
 
-<section>
-  <div class="title">
-    <h3>Connect with Us!</h3>
-    <h1>Donate</h1>
-      <h1>Donate</h1>
-  </div>
-</section>
+
 
 <section>
     <div class="parallax-one">
