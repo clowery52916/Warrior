@@ -30,7 +30,7 @@ const Swiper4 = styled.div`
 const Swiper5 = styled.div`
 
 `
-class Class extends Component {
+class Volunteer extends Component {
   render() {
     return (
       <div>
@@ -43,4 +43,4 @@ class Class extends Component {
 
 
 
-export default Class;
+export default Volunteer;

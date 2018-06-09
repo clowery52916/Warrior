@@ -48,7 +48,7 @@ class Footer extends Component {
    </div>
 </div>
 
-<div id="newsletter-social">
+<div id="">
     <div id="newsletter">
       <h3 class="center">appellat</h3>
       <p class="deals">Cernantur elit minim ita quem, incididunt enim a eiusmod illustriora.</p>

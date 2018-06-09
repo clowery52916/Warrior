@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer'
 import Volunteer from './components/Volunteer'
 import About from './components/About'
 import Sponsors from './components/Sponsors'
+import Resources from './components/Resources'
+import Ranch from './components/Ranch'
 import './App.css';
 import './styles/styles.scss';
 import './styles/vendor/normalize.css';
@@ -19,8 +21,8 @@ class App extends Component {
             <Route exact path='/' component={Home}/>
               <Route exact path='/volunteer' component={Volunteer}/>
               <Route exact path='/about' component={About}/>
-
-
+              <Route exact path='/resources' component={Resources}/>
+              <Route exact path='/ranch' component={Ranch}/>
               <Route exact path='/sponsors' component={Sponsors}/>
           </Switch>
         </Router>

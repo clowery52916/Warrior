@@ -15,9 +15,10 @@ const Header = () => (<div>
       <nav>
 
       <div id="nav_bar" class="navbar">
-        <img class="active" src='http://warrioroutreach.org/wp-content/uploads/2016/09/cropped-warrior-logo-PNG.png'>
-          <a href='/'/>
-        </img>
+        <li>
+          <a href='/'>  <img class="active" src='http://warrioroutreach.org/wp-content/uploads/2016/09/cropped-warrior-logo-PNG.png' onClick='/home'></img></a>
+        </li>
+
 
         <ul>
           <li class="dropdown">
@@ -37,6 +38,8 @@ const Header = () => (<div>
                 <a href="/donate">
               Donate Today
                 </a>
+                <br/>
+                <br/>
                 <br/>
               </div>
             </div>
@@ -59,12 +62,13 @@ const Header = () => (<div>
 
                 </a>
                 <br/>
-
+                <br/>
+                <br/>
               </div>
             </div>
           </li>
           <li class="dropdown">
-            <a id="reflink" class="blockline">Resources</a>
+            <a id="reflink" class="blockline" href='/resources'>Resources</a>
             <div class="dropdown">
               <br/>
             <br/>
@@ -81,11 +85,12 @@ const Header = () => (<div>
                 <br/>
               <br/>
                 <br/>
+              <br/>
               </div>
             </div>
           </li>
           <li class="dropdown">
-            <a id="reflink" class="blockline">Contact Us</a>
+            <a id="reflink" class="blockline" href='/contact'>Contact Us</a>
             <div class="dropdown">
               <br/>
             <br/>
