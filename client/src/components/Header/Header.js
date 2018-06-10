@@ -29,7 +29,7 @@ const Header = () => (<div>
               <div class="dropdown-content" id='top-container'>
                 <a href="/sponsors">Sponsors
                 </a>
-                <a href="/recognition">
+                <a href="/volunteers">
                   Volunteer Recognition
                 </a>
                 <a href="/events">

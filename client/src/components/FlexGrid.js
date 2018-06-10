@@ -7,9 +7,9 @@ class FlexGrid extends Component {
   render() {
     return (
       <div>
-
+    <SecondHeader/>
         <Header/>
-              <SecondHeader/>
+
       <header class="header">
         <div class="text-box">
             <h1 class="heading-primary">

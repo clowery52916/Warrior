@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import HomepageLayout from './HomepageLayout'
+import SecondaryHomePage from './SecondaryHomePage'
 import Swiper from 'react-slider-swiper';
 import styled from 'styled-components'
 
@@ -30,11 +30,12 @@ const Swiper4 = styled.div`
 const Swiper5 = styled.div`
 
 `
+
 class Resources extends Component {
   render() {
     return (
       <div>
-        <HomepageLayout/>
+        <SecondaryHomePage/>
 </div>
 
     );

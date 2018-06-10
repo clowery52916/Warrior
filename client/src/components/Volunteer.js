@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import HomepageLayout from './HomepageLayout'
+import SecondaryHomePage from './SecondaryHomePage'
 import Swiper from 'react-slider-swiper';
 import styled from 'styled-components'
 
@@ -34,7 +34,7 @@ class Volunteer extends Component {
   render() {
     return (
       <div>
-        <HomepageLayout/>
+        <SecondaryHomePage/>
 </div>
 
     );

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
-import HomepageLayout from './HomepageLayout'
+import SecondaryHomePage from './SecondaryHomePage'
 
 class About extends Component {
   render() {
@@ -9,7 +9,7 @@ class About extends Component {
       <div>
 
 
-        <HomepageLayout/>
+        <SecondaryHomePage/>
 
       </div>
     );
