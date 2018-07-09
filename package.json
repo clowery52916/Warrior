@@ -13,6 +13,8 @@
     "animated": "^0.2.2",
     "bootstrap": "^4.1.1",
     "flickity": "^2.1.1",
+    "google-map-react": "^1.0.5",
+    "google-maps-react": "^2.0.2",
     "jquery": "^3.3.1",
     "material-design-icons": "^3.0.1",
     "material-ui": "^1.0.0-beta.47",

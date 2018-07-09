@@ -1059,7 +1059,7 @@ a:hover {
   background-position: center center;
 }
 
-/* Ranch Image */
+/* Story Image */
 
 #parallax-world-of-ugg .parallax-four {
   padding-top: 200px;
@@ -1068,6 +1068,65 @@ a:hover {
   position: relative;
   width: 100%;
   background-image: url(https://i.imgur.com/CbpQFGx.png?1);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+/* cope with ptsd image */
+#parallax-world-of-ugg .parallax-five {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1499187817214-70f75289a676?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b63a505fb192eb07a2e7548e4b95b81a&auto=format&fit=crop&w=1950&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/*ranch  */
+#parallax-world-of-ugg .parallax-six {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://photos-6.dropbox.com/t/2/AADF671wR6-XbScQ8OM1RQALl43pgJC1gCxLbzLY6QxiYA/12/709978334/jpeg/32x32/1/_/1/2/DSC_0027.JPG/EJC06sAMGBYgAigC/WSqlaeY-jn0rTjG55Z9qo3GUDwWtUwMf6ziNVIlfgeE?size=2048x1536&size_mode=3);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#parallax-world-of-ugg .parallax-seven {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(http://warrioroutreach.org/wp-content/uploads/2018/06/Volunteers-update-2-2-768x1024.png?size=2048x1536&size_mode=3);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#parallax-world-of-ugg .parallax-eight {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://photos-4.dropbox.com/t/2/AADS-vOOBcSCKICE0oyIKh_3HIN4kExCe7ASE58woPS-Zg/12/709978334/jpeg/32x32/1/_/1/2/DSC_0050.JPG/EJC06sAMGBcgAigC/bSX-8w7g7BRWkE4oAk80oR5mUDgXJ2acsOEPbf2zlzA?size=2048x1536&size_mode=3);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;

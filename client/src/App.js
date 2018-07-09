@@ -8,6 +8,7 @@ import About from './components/About'
 import Volunteers from './components/Volunteers'
 import Volunteer from './components/Volunteer'
 import Resources from './components/Resources'
+import Story from './components/Story'
 import Ranch from './components/Ranch'
 import Ptsd from './components/Ptsd'
 import './App.css';
@@ -24,10 +25,11 @@ class App extends Component {
               <Route exact path='/sponsors' component={Sponsors}/>
               <Route exact path='/about' component={About}/>
               <Route exact path='/resources' component={Resources}/>
-              <Route exact path='/ranch' component={Ranch}/>
+              <Route exact path='/story' component={Story}/>
               <Route exact path='/volunteers' component={Volunteers}/>
               <Route exact path='/volunteer' component={Volunteer}/>
               <Route exact path='/ptsd' component={Ptsd}/>
+              <Route exact path='/ranch' component={Ranch}/>
           </Switch>
         </Router>
 

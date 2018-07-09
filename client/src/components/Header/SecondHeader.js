@@ -17,7 +17,7 @@ class SecondHeader extends Component {
           </div>
           <br/>
                 <div className='second-header-links'>
-            <Link to='chart' target='_blank' to='https://www.paypal.com/donate/?token=HV29Tk7p_zw7a9ju9BHzAScG-xab55vU2hoPMoI2aPO0SN7XwBdsDsDuLKbbPOV3NErj4m&country.x=US&locale.x=US'>Volunteer</Link>
+            <Link to='chart' target='_blank' to='https://www.gofundme.com/WarriorOutreach'>Volunteer</Link>
           </div>
           </div>
         </section>
