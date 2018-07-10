@@ -69,16 +69,38 @@ equine activities, Veterans Home Assistance, Tickets for events, and so much
 More… We invite you to come out to ride Horses and spend time learning the basic
 fundamentals of Horsemanship, etc.. Click   <a id='thumbnail' href="http://warrioroutreach.org/wp-content/uploads/2018/05/WOEventRequestForm2018Fillable.pdf" target="_blank" title="Ranch Event Form">here</a> to download the event request form.</p>
             <p class="line-break margin-top-10"></p>
-            <p class="margin-top-10">Please take time to look at our Sponsor page, so many have contributed significantly to the Warrior Outreach Mission to
-            support Veterans, service members and their Families. The activities include
-            structured opportunities for them to interact with Horses in a group as well as
-            individual basis at the Warrior Outreach ranch, feeding the needy as well as
-            providing opportunities to attend sports events as well as Veterans Home assistance
-            repairs. Our main focus is to identify those in need of assistance in transitioning and
-            adjusting to life after traumatic occurrences such as war.
-            Thank you for your consideration, we continue to honor Veterans and their
-            Family and Value Veterans and Soldiers, our heroes that keep this country
-            safe and strong.We salute all of our Volunteers! Thanks to all of you for your continued support! You are the reason we can continue to support all of the brave men and women who have risked thier lives, for ours.</p>
+            <p class="margin-top-10"><em>Reocurring Events</em></p>
+            <p> <em>Riding</em>
+              <br/>
+              Riding is on Sat from 1-4 PM  there will be no riding on Wednesdays.
+
+Riding is conducted by RSVP only. Email Sam Rhodes at warrioroutreach@gmail.com
+
+Individuals are welcome to coordinate to come out on other days by direct Coordination with the Warrior Outreach. Riding hours will be extended when the Daily Light saving time is adjusted
+<br/>
+<br/>
+<em>Feeding The Needy and Bagging Groceries at Columbus Dream Center</em>
+<br/>
+Support Columbus Dream center feeding the needy occurs the third Friday (Noon to 1 PM) and Sat (11-2 PM) of every month. If you are available please contact Charlie White @ charliewhite@knology.net
+
+Columbus Dream Center- Map
+<br/>
+<br/>
+<em>Warrior Outreach Ranch</em>
+<br/>
+Any organization that is associated with Veterans, their Families or Active Duty military members may use the Warrior Outreach Facilities. To coordinate dates and times, please email Cathy Rhodes at cathy.rhodes56@gmail.com
+<br/>
+<br/>
+<em>Riding Lessons</em>
+<br/>
+Warrior Outreach Ranch will now schedule Riding Lessons. To be linked up with a local Riding Lesson Instructor email us at warrioroutreach@gmail.com.
+<br/>
+<br/>
+<em>Volunteer!</em>
+<br/>
+
+Volunteers are needed! Please donate your time and energy to this wonderful cause. For more information on volunteer opportunities, contact Sam Rhodes at 706-505-0708.
+            </p>
             <p class="line-break margin-top-10"></p>
             <p class="margin-top-10"></p>
 
@@ -93,8 +115,28 @@ fundamentals of Horsemanship, etc.. Click   <a id='thumbnail' href="http://warri
 
         <section>
           <div class="block">
-            <p class="line-break margin-top-10"></p>
 
+            <section>
+              <div class="block">
+                <p>
+                  <span class="first-character atw">H</span>orses play a big part in what we do here at Warrior Outreach.
+          You can help us support our horses, by donating bails of hay.</p>
+                <p class="line-break margin-top-10"></p>
+                <p class="margin-top-10">Please take time to look at our Sponsor page, so many have contributed significantly to the Warrior Outreach Mission to
+                support Veterans, service members and their Families. The activities include
+                structured opportunities for them to interact with Horses in a group as well as
+                individual basis at the Warrior Outreach ranch, feeding the needy as well as
+                providing opportunities to attend sports events as well as Veterans Home assistance
+                repairs. Our main focus is to identify those in need of assistance in transitioning and
+                adjusting to life after traumatic occurrences such as war.
+                Thank you for your consideration, we continue to honor Veterans and their
+                Family and Value Veterans and Soldiers, our heroes that keep this country
+                safe and strong.We salute all of our Volunteers! Thanks to all of you for your continued support! You are the reason we can continue to support all of the brave men and women who have risked thier lives, for ours.</p>
+                <p class="line-break margin-top-10"></p>
+                <p class="margin-top-10"></p>
+
+              </div>
+            </section>
             <br/>
             <section>
               <Carousel>
@@ -137,7 +179,7 @@ fundamentals of Horsemanship, etc.. Click   <a id='thumbnail' href="http://warri
             <br/>
             <p class="line-break margin-top-10"></p>
             <p class="margin-top-10">
-              <span class="first-character atw">I</span>McDonalds coalition of the willing It's only half time NASCAR tea party propane and propane accessories. Day that will live in infamy series of tubes I am not a crook nothing to fear but fear itself Harriet Tubman. Santorum smallpox blanket mama grizzly Philly cheese steak deep-dish trail of tears liberty American justice. Yes we can Supreme Commander Allied Forces Europe Eisenhower bleed red white and blue Richard “Tricky Dick” Nixon. Wardrobe malfunction KFC Double Down slavery hot dog who shot JR? safe for democracy apple pie 40 acres and a mule. Can you hear me now? tombstone piledriver Fox News Fox Mulder Dwayne “The Rock” Johnson unilateral military action. Marlboro vast right-wing conspiracy Japanese internment roll that beautiful bean footage don’t mess with Texas. Live free or die hard Uncle Sam truck nutz Harriet Tubman Kentucky bourbon Brett Favre John Wayne. Freedom fries yes we can mama grizzly I wanna be like Mike little bighorn if you dont like it you can git out. Walker, Texas Ranger y’all moonshine Dwayne “The Rock” Johnson Philly cheese steak tea party git ‘er done. Freedom isn’t free Fox Mulder that dog’ll hunt 187 on an undercover cop security council veto. Crippling obesity epidemic unconstitutional I did not have sexual relations with that woman Mr. Gorbachev, tear down this wall. Marlboro the south will rise again NASA 40 acres and a mule Westboro Baptist Church these colors don’t run. Who shot JR? United we stand Jerry Springer don’t mess with Texas this is what we call the Muppet Show.</p>
+              <span class="first-character ny">I</span>McDonalds coalition of the willing It's only half time NASCAR tea party propane and propane accessories. Day that will live in infamy series of tubes I am not a crook nothing to fear but fear itself Harriet Tubman. Santorum smallpox blanket mama grizzly Philly cheese steak deep-dish trail of tears liberty American justice. Yes we can Supreme Commander Allied Forces Europe Eisenhower bleed red white and blue Richard “Tricky Dick” Nixon. Wardrobe malfunction KFC Double Down slavery hot dog who shot JR? safe for democracy apple pie 40 acres and a mule. Can you hear me now? tombstone piledriver Fox News Fox Mulder Dwayne “The Rock” Johnson unilateral military action. Marlboro vast right-wing conspiracy Japanese internment roll that beautiful bean footage don’t mess with Texas. Live free or die hard Uncle Sam truck nutz Harriet Tubman Kentucky bourbon Brett Favre John Wayne. Freedom fries yes we can mama grizzly I wanna be like Mike little bighorn if you dont like it you can git out. Walker, Texas Ranger y’all moonshine Dwayne “The Rock” Johnson Philly cheese steak tea party git ‘er done. Freedom isn’t free Fox Mulder that dog’ll hunt 187 on an undercover cop security council veto. Crippling obesity epidemic unconstitutional I did not have sexual relations with that woman Mr. Gorbachev, tear down this wall. Marlboro the south will rise again NASA 40 acres and a mule Westboro Baptist Church these colors don’t run. Who shot JR? United we stand Jerry Springer don’t mess with Texas this is what we call the Muppet Show.</p>
           </div>
         </section>
       </div>

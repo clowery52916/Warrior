@@ -45,7 +45,7 @@ const Header = () => (<div>
             </div>
           </li>
           <li class="dropdown">
-            <a id="reflink" class="blockline" href='/about'>Our Mission</a>
+            <a id="reflink" class="blockline" href='/about'>Our Purpose</a>
             <div class="dropdown">
               <br/>
             <br/>

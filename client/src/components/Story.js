@@ -56,7 +56,7 @@ adjusting to life after traumatic occurrences,  such as war and being seperated 
             </div>
             <div class="col-lg-4 col-sm-6">
               <div class="ranch-image thumbnail">
-                <a id='thumbnail' href="https://thimbleprojects.org/ch3ll0h/385804" target="_blank" title="Photo Blog">
+                <a id='thumbnail' href="/volunteer" target="_blank" title="Photo Blog">
                   <img src="https://i.imgur.com/HJn1s2w.png?1"/>
                   <p>Volunteers</p>
                 </a>
@@ -73,7 +73,7 @@ adjusting to life after traumatic occurrences,  such as war and being seperated 
             </div>
             <div class="col-lg-4 col-sm-6">
               <div class="ranch-image thumbnail">
-                <a id='thumbnail' href="https://codepen.io/Chell0/full/WXPoBN/" target="_blank" title="Blog">
+                <a id='thumbnail' href="/ranch" target="_blank" title="Blog">
                   <img src="https://i.imgur.com/8Mhvevb.jpg?1&auto=format&fit=crop&w=200&q=80"/>
                   <p>The Ranch</p>
                 </a>

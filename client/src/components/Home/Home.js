@@ -39,16 +39,16 @@ export default class Home extends Component {
 
         <section>
           <div class="parallax-one">
-            <h2>AMERICA</h2>
+            <h2>OUR MISSION</h2>
           </div>
         </section>
 
         <section>
           <div class="block">
             <p>
-              <span class="first-character sc">F</span>FC Double Down United we stand murrica Budweiser little bighorn Tippecanoe and Tyler too. The south will rise again tombstone piledriver NASCAR grassy knoll war of northern aggression. Tom Cruise this is what we call the Muppet Show roll that beautiful bean footage. Nothing to fear but fear itself Monsanto propane and propane accessories tea party. CNN’s ratings are down smallpox blanket American football G.I. Joe blame Canada. Love it or leave it Brett Favre goodnight and goodluck I wanna be like Mike y’all come back now, hear. Bleed red white and blue vast right-wing conspiracy bulk data collection blonde haired, blue eyed Jesus. Hot dog these colors don’t run y’all don’t mess with Texas Mr. Gorbachev, tear down this wall.</p>
+              <span class="first-character sc">W</span>arrior Outreach, Inc. supports Veterans, Service Members, and their Families by offering a wide variety of equine related activities. Warrior Outreach Ranch offers confidence building, instructional and relaxing opportunities to interact with horses and enjoy family bonding.</p>
             <p class="line-break margin-top-10"></p>
-            <p class="margin-top-10">Florida Man roll that beautiful bean footage deep-dish John Wayne yes we can. Fox News I did not have sexual relations with that woman Tippecanoe and Tyler too. That dog’ll hunt NASCAR George Bush does not care about black people crippling obesity epidemic. Day that will live in infamy this is what we call the Muppet Show in god we trust. American justice American football Thomas Jefferson liberty blame Canada. 40 acres and a mule if the glove don’t fit you must acquit trix are for kids. Oprah can you hear me now? mission accomplished Dwayne “The Rock” Johnson. Tom Cruise moonshine war of northern aggression series of tubes murrica.</p>
+            <p class="margin-top-10"></p>
           </div>
         </section>
 
@@ -60,9 +60,9 @@ export default class Home extends Component {
         <section>
           <div class="block">
             <p>
-              <span class="first-character ny">W</span>ar on Christmas Philly cheese steak I am not a crook landed on the moon this is what we call the Muppet Show. M*A*S*H day that will live in infamy 187 on an undercover cop truck nutz Buddy Christ. McDonalds wardrobe malfunction git ‘er done never forget ask not what your country can do for you, ask what you can do for your country. Brett Favre unconstitutional Oprah Marlboro slavery United we stand trix are for kids. If you dont like it you can git out Tom Cruise Supreme Commander Allied Forces Europe Eisenhower. Japanese internment smallpox blanket roll that beautiful bean footage crippling obesity epidemic. Monsanto Harriet Tubman mission accomplished G.I. Joe stars and stripes climate change denial. Trail of tears sit on it Santorum Forrest Gump Liberty Bell Walker, Texas Ranger.</p>
+              <span class="first-character ny">O</span>Our main focus  is to assist Soldiers and Families in transitioning and adjusting to life after traumatic occurrences and family separation due to deployments such as war.  Our Horsemanship Program is designed to provide support, similar to equine therapy, to Veteran and their Families in the tri-community area.  We are staffed entirely by caring Volunteers and are privately funded by your donations.</p>
             <p class="line-break margin-top-10"></p>
-            <p class="margin-top-10">Safe for democracy bleed red white and blue 187 on an undercover cop. Y’all can you hear me now? crippling obesity epidemic blonde haired, blue eyed Jesus. Ask not what your country can do for you, ask what you can do for your country. Security council veto 40 acres and a mule Buddy Christ coalition of the willing. CNN’s ratings are down deep-dish apple pie sit on it mama grizzly. I wanna be like Mike tombstone piledriver Oprah these colors don’t run. Live free or die hard Tom Cruise Forrest Gump KFC Double Down. Philly cheese steak murrica George Bush does not care about black people. Bulk data collection trail of tears day that will live in infamy.</p>
+            <p class="margin-top-10"></p>
           </div>
         </section>
 
@@ -75,16 +75,17 @@ export default class Home extends Component {
         <section>
           <div class="block">
             <p>
-              <span class="first-character atw">F</span>orrest Gump G.I. Joe Walker, Texas Ranger I did not have sexual relations with that woman. The south will rise again Uncle Sam roll that beautiful bean footage. Manifest destiny unilateral military action trail of tears 187 on an undercover cop. Tea party Santorum Thomas Jefferson ask not what your country can do for you, ask what you can do for your country. Philly cheese steak this is what we call the Muppet Show tombstone piledriver. John Wayne war of northern aggression bleed red white and blue Oprah. Coalition of the willing climate change denial day that will live in infamy. Grassy knoll y’all Japanese internment git ‘er done blonde haired, blue eyed Jesus. Nothing to fear but fear itself in god we trust crippling obesity epidemic.</p>
+              <span class="first-character atw">W</span>arrior Outreach partners with businesses and Volunteers in the local area to provide a free Veterans Helping Veterans home repair service for disabled and deserving Veterans and their surviving family members.  100% of your contributions go to providing support to those who need it the most.  Warrior Outreach, Inc. partners with Heartland Therapeutic Programs.</p>
             <p class="line-break margin-top-10"></p>
-            <p class="margin-top-10">Stars and stripes Liberty Bell Richard “Tricky Dick” Nixon Forrest Gump ain't my first rodeo. Tom Cruise Marlboro if the glove don’t fit you must acquit coalition of the willing. That dog’ll hunt slavery smallpox blanket trail of tears Santorum freedom isn’t free. Dwayne “The Rock” Johnson I did not have sexual relations with that woman Uncle Sam. Walker, Texas Ranger Fox News live free or die hard climate change denial security council veto. G.I. Joe John Wayne yes we can didn’t inhale Budweiser little bighorn free market war of northern aggression. Who shot JR? y’all come back now, hear Oprah propane and propane accessories CNN’s ratings are down.</p>
+            <p class="margin-top-10"></p>
 
           </div>
         </section>
         <section>
           <div class="block">
-            <p>
-              <span class="first-character atw">B</span>ulk data collection Kentucky bourbon roll that beautiful bean footage Buddy Christ Uncle Sam. Who shot JR? ain't my first rodeo don’t mess with Texas if you dont like it you can git out. Mama grizzly landed on the moon Tippecanoe and Tyler too this is what we call the Muppet Show. The south will rise again if the glove don’t fit you must acquit Jerry Springer NASA Japanese internment. Trix are for kids Fox Mulder didn’t inhale tombstone piledriver freedom fries day that will live in infamy.</p>
+            <p class='head'>
+              See what we do!
+              </p>
             <p class="line-break margin-top-10"></p>
             <br/>
             <section>
@@ -92,7 +93,10 @@ export default class Home extends Component {
                 <div class="container">
                   <img src={image1} alt="Avatar" class="image"/>
                   <div class="overlay">
-                    <div class="text">Hello World</div>
+                    <div class="subtext">
+                    <a href='/horses' class="text">HORSES</a><span class="first-character atw">O</span>ur Horsemanship Program is designed to provide support, similar to equine therapy, to Veteran and their Families in the tri-community area.  We are staffed entirely by caring Volunteers and are privately funded by your donations.
+
+      100% of the donations for this campaign will go directly to feeding the 17 horses located at the ranch and utilized for therapeutic activities.</div>
                   </div>
                 </div>
                 <div class="container">
@@ -135,9 +139,8 @@ export default class Home extends Component {
          </Paper>  */
             }
             <br/>
-            <p class="line-break margin-top-10"></p>
-            <p class="margin-top-10">
-              <span class="first-character atw">I</span>McDonalds coalition of the willing It's only half time NASCAR tea party propane and propane accessories. Day that will live in infamy series of tubes I am not a crook nothing to fear but fear itself Harriet Tubman. Santorum smallpox blanket mama grizzly Philly cheese steak deep-dish trail of tears liberty American justice. Yes we can Supreme Commander Allied Forces Europe Eisenhower bleed red white and blue Richard “Tricky Dick” Nixon. Wardrobe malfunction KFC Double Down slavery hot dog who shot JR? safe for democracy apple pie 40 acres and a mule. Can you hear me now? tombstone piledriver Fox News Fox Mulder Dwayne “The Rock” Johnson unilateral military action. Marlboro vast right-wing conspiracy Japanese internment roll that beautiful bean footage don’t mess with Texas. Live free or die hard Uncle Sam truck nutz Harriet Tubman Kentucky bourbon Brett Favre John Wayne. Freedom fries yes we can mama grizzly I wanna be like Mike little bighorn if you dont like it you can git out. Walker, Texas Ranger y’all moonshine Dwayne “The Rock” Johnson Philly cheese steak tea party git ‘er done. Freedom isn’t free Fox Mulder that dog’ll hunt 187 on an undercover cop security council veto. Crippling obesity epidemic unconstitutional I did not have sexual relations with that woman Mr. Gorbachev, tear down this wall. Marlboro the south will rise again NASA 40 acres and a mule Westboro Baptist Church these colors don’t run. Who shot JR? United we stand Jerry Springer don’t mess with Texas this is what we call the Muppet Show.</p>
+
+
           </div>
         </section>
       </div>
