@@ -21,7 +21,7 @@
     "material-ui-react": "0.0.1",
     "materialize-css": "^1.0.0-rc.1",
     "node": "^10.0.0",
-    "npm": "^6.0.1",
+    "npm": "^6.14.6",
     "nuka-carousel": "^4.2.1",
     "nuka-carousel-autoscroll": "^0.1.5",
     "react-dom-animated": "^1.0.6",
